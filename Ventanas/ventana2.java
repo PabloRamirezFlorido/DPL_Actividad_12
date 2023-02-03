@@ -19,7 +19,7 @@ public class ventana2 extends JFrame implements ActionListener { //clase para la
         DNI.setVisible(true);
         add(DNI);
 
-        NCuenta = new JTextField("Número de Cuenta");
+        NCuenta = new JTextField("Número");
         NCuenta.setBounds(10,200,200,50);
         NCuenta.setVisible(true);
         add(NCuenta);
